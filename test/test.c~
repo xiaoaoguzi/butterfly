@@ -8,7 +8,6 @@ int temp_focus = 331330;
 
 unsigned char  is_focus_valid(long focus);
 
-
 int main(void)
 {
 	int ret;
