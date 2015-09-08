@@ -1,0 +1,60 @@
+diff --git a/p b/p
+index 3e3125f..3f0f7b0 100644
+--- a/p
++++ b/p
+@@ -1,21 +1,21 @@
+ diff --git a/test/test.c b/test/test.c
+ index 7e6b754..bddd8ab 100644
+---- a/test/test.c
+-+++ b/test/test.c
+-@@ -8,16 +8,6 @@ int temp_focus = 331330;
+++++ a/test/test.c
++--- b/test/test.c
++@@ +8,16 -8,6 @@ int temp_focus = 331330;
+  
+  unsigned char  is_focus_valid(long focus);
+  
+--int main(void)
+--{
+--	int ret;
+--
+--	ret = is_focus_valid(59879);
+--	printf("ret: %d\n", ret);
+--
+--	return 0;
+--
+--}
+++int main(void)
+++{
+++	int ret;
+++
+++	ret = is_focus_valid(59879);
+++	printf("ret: %d\n", ret);
+++
+++	return 0;
+++
+++}
+  
+  
+  // 331330  59879
+diff --git a/test/test.c b/test/test.c
+index bddd8ab..7e6b754 100644
+--- a/test/test.c
++++ b/test/test.c
+@@ -8,6 +8,16 @@ int temp_focus = 331330;
+ 
+ unsigned char  is_focus_valid(long focus);
+ 
++int main(void)
++{
++	int ret;
++
++	ret = is_focus_valid(59879);
++	printf("ret: %d\n", ret);
++
++	return 0;
++
++}
+ 
+ 
+ // 331330  59879

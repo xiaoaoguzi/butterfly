@@ -1,0 +1,8 @@
+	
+config PIQS_POWER_GPIO
+    bool "piqs power gpio support"
+    depends on GPIO_AMLOGIC=y
+    default y
+    help
+        say is y 
+        This is   power gpio driver
