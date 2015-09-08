@@ -9,6 +9,7 @@ int temp_focus = 331330;
 unsigned char  is_focus_valid(long focus);
 
 
+wujiwang
 int main(void)
 {
 	int ret;
